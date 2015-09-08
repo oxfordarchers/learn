@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+/**********************
+ * OA-specific classes
+ **********************/
+
+section.logo-background {
+  width: 100%; 
+  height: 100%; 
+  background-size: 80%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url(../../../brand/oa_logo_vector.svg);
+}
