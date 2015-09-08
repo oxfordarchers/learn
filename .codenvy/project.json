@@ -1,0 +1,1 @@
+{"builders":{"configs":{}},"mixinTypes":["contribution"],"runners":{"configs":{"system:/javascript/web/grunt":{"ram":1000,"variables":{},"options":{}}},"default":"system:/javascript/web/grunt"},"type":"blank","attributes":{"contribute_branch":["gh-pages"],"contribute_mode":["contribute"]},"description":"Presentations for archers presented with reveal.js"}
