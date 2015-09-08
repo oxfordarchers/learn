@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 /**********************
- * OA-specific classes
+ * OA-specific classes - loaded by default in the slide layout
  **********************/
 
 section.logo-background {
@@ -11,4 +11,8 @@ section.logo-background {
   background-position: top center;
   background-repeat: no-repeat;
   background-image: url(../../../brand/OA_logo_vector.svg);
+}
+
+.oa_logo_background {
+  fill: #222;
 }
