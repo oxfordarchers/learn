@@ -13,6 +13,6 @@ section.logo-background {
   background-image: url(../../../brand/OA_logo_vector.svg);
 }
 
-.oa_logo_background {
+img.oa_logo_background {
   fill: #222;
 }
