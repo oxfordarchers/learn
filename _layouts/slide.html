@@ -25,18 +25,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="{{ "/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="/reveal.js/css/reveal.css/">
     {%if page.theme %}
-      <link rel="stylesheet" href="{{ "/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
+      <link rel="stylesheet" href="/reveal.js/css/theme/" id="theme"/>
     {% else %}
-      <link rel="stylesheet" href="{{ "/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme"/>
+      <link rel="stylesheet" href="/reveal.js/css/theme/black.css" id="theme"/>
     {% endif %}
     
     <!-- Load custom OA classes -->
-    <link rel="stylesheet" href="{{ "/reveal.js/css/theme/oa.css" | prepend: site.baseurl }}" id="theme"/>
+    <link rel="stylesheet" href="/reveal.js/css/theme/oa.css" id="theme"/>
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="{{ "/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="/reveal.js/lib/css/zenburn.css"/>
 
     <!-- Printing and PDF exports -->
     <script>
@@ -47,9 +47,9 @@
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
 
-    <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -74,8 +74,8 @@
     </div>
     </div>
 
-    <script src="{{ "/reveal.js/lib/js/head.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
+    <script src="/reveal.js/lib/js/head.min.js"></script>
+    <script src="/reveal.js/js/reveal.js"></script>
     <script>
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
