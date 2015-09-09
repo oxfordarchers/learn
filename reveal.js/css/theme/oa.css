@@ -16,3 +16,10 @@ section.logo-background {
 img.oa_logo_background {
   fill: #222;
 }
+
+.attribution{
+    position:absolute;
+    bottom:10;
+    left:100;
+    font-size:0.5em
+}
