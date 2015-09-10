@@ -31,4 +31,5 @@ span.attribution {
 img.floatleft {
   float: left;
   height: 600px;
+  margin-right: 20px;
 }
