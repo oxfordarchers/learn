@@ -13,13 +13,22 @@ section.logo-background {
   background-image: url(../../../brand/OA_logo_vector.svg);
 }
 
+section.whitetext {
+  color: white;
+}
+
 img.oa_logo_background {
   fill: #222;
 }
 
-span.attribution{
+span.attribution {
     position:absolute;
     bottom:10;
     left:100;
     font-size:0.5em
+}
+
+img.floatleft {
+  float: left;
+  height: 600px;
 }
