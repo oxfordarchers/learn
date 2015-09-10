@@ -17,7 +17,7 @@ img.oa_logo_background {
   fill: #222;
 }
 
-.attribution{
+span.attribution{
     position:absolute;
     bottom:10;
     left:100;
