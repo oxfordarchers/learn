@@ -17,6 +17,10 @@ section.whitetext {
   color: white;
 }
 
+section.whitetext > h1,h2,h3 {
+  color: white;
+}
+
 img.oa_logo_background {
   fill: #222;
 }
